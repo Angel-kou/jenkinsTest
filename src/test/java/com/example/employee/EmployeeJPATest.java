@@ -28,8 +28,8 @@ import static org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTest
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = NONE)
 public class EmployeeJPATest {
-    @Autowired
-    private EmployeeRepository employeeRepository;
+//    @Autowired
+//    private EmployeeRepository employeeRepository;
 
 //    @Before
 //    public void setUp() throws Exception {
