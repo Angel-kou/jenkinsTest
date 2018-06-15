@@ -97,4 +97,11 @@ public class EmployeeJPATest {
         Employee actualEmployee = employeeRepository.findFirstEmployeeByName("xiaohong");
         assertThat(actualEmployee).isNull();
     }
+
+    @Test
+    public void test_method(){
+        Employee employee = null;
+        assertThat(employee).isNull();
+    }
+
 }
