@@ -12,6 +12,7 @@ import javax.persistence.Id;
 @Entity
 @EntityListeners(AuditingEntityListener.class)
 public class Company {
+    //id auto generate
     @Id
     @GeneratedValue(generator = "uuid")
     @GenericGenerator(name = "uuid", strategy = "uuid")
