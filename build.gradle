@@ -22,9 +22,9 @@ repositories {
     mavenCentral()
 }
 
-configurations {
-    providedRuntime
-}
+//configurations {
+//    providedRuntime
+//}
 
 dependencies {
     runtime('mysql:mysql-connector-java')
