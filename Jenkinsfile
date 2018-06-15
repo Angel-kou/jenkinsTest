@@ -5,7 +5,7 @@ pipeline {
         stages {
             stage('Build') {
                 steps {
-                    #!/bin/bash -ilex
+
                     sh 'make'
                 }
             }
