@@ -20,7 +20,7 @@ public class Employee {
     private String name;
     private int age;
     private String gender;
-    private int companyId;
+    private int companyId; //foreign key
     private int salary;
 
     public Employee() {
