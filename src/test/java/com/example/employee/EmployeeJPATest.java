@@ -104,4 +104,10 @@ public class EmployeeJPATest {
         assertThat(employee).isNull();
     }
 
+    @Test
+    public void test_method1(){
+        Employee employee = null;
+        assertThat(employee).isNull();
+    }
+
 }
