@@ -3,7 +3,7 @@ package com.example.employee;
 import com.example.employee.entity.Employee;
 import com.example.employee.repository.EmployeeRepository;
 import com.example.employee.repository.EmployeeRepositoryImpl;
-import org.flywaydb.core.Flyway;
+//import org.flywaydb.core.Flyway;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
