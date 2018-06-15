@@ -1,12 +1,16 @@
 pipeline {
+    agent any
 
-     agent any
-
-        stages {
-            stage('Build') {
-                steps {
-                    sh 'make'
+    stages {
+                stage('Build') {
+                    steps {
+                        sh './gradlew build'
+                    }
+                }
+                stage('Test') {
+                    steps {
+                        sh './gradlew check'
+                    }
                 }
             }
-        }
 }
